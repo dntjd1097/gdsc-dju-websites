@@ -21,23 +21,24 @@ const startAnimation = keyframes`
 `;
 
 const StyledThemeButton = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 7px;
-  width: 40px;
-  height: 40px;
-  background: var(--background);
-  border: 0 solid transparent;
-  border-radius: 20px;
+  position: absolute;
+  height: 26px;
+  left: 1334px;
+  top: 22px;
+  border-style: none;
   cursor: pointer;
+
   &:hover {
     transition: 0.3s;
-    background: var(--grey50);
   }
 `;
 const ButtonWrapper = styled.div<{ isActive: boolean }>`
   animation-fill-mode: forwards;
+  left: 92.85%;
+  right: 5.8%;
+  top: 2.27%;
+  bottom: 95.83%;
+  width: 26px;
   animation: ${({ isActive }) => isActive && startAnimation} 0.6s ease-in-out;
 `;
 
@@ -58,7 +59,7 @@ const ThemeButton = () => {
         isActive={animate}
         onAnimationEnd={() => setAnimate(false)}
       >
-        {isDarkMode ? <DarkModeIcon /> : <LightModeIcon />}
+        {isDarkMode ? <LightModeIcon /> : <DarkModeIcon />}
       </ButtonWrapper>
     </StyledThemeButton>
   );

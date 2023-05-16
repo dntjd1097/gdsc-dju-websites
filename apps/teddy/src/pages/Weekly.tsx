@@ -1,13 +1,28 @@
 import React from 'react';
 
+import styled from 'styled-components';
+
 import ThemeButton from '../components/common/ThemeButton';
-import './Weekly.css';
+import LastButtons from '../components/LastButtons';
+
+import Body from './Body';
+import Nav from './Nav';
+
+const BtnContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+
 const Weekly = () => {
   return (
-    <div>
-      <h1 className={'title'}>Google</h1>
-      Weekly <ThemeButton />
-    </div>
+    <>
+      <Nav />
+      <BtnContainer>
+        <LastButtons />
+        <ThemeButton />
+      </BtnContainer>
+      <Body />
+    </>
   );
 };
 

@@ -13,6 +13,9 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         flexDirection: 'column',
         flex: '1 0 auto',
         minHeight: '100vh',
+        position: 'relative',
+        width: '1440px',
+        height: '1100px',
       }}
     >
       <App />
