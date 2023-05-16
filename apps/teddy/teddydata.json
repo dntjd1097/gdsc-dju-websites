@@ -1,0 +1,35 @@
+{
+  "message": "조회를 성공했습니다.",
+  "data": [
+    {
+      "id": "U02BR888JMT",
+      "displayName": "Harry",
+      "profileImage": "https://avatars.slack-edge.com/2023-04-21/5143636198835_60fe8c5314d15c21a32f_512.jpg",
+      "count": 3
+    },
+    {
+      "id": "U02TWSK3RQU",
+      "displayName": "Peony",
+      "profileImage": "https://avatars.slack-edge.com/2022-02-09/3074008716723_a3e79f8f514881a62693_512.png",
+      "count": 7
+    },
+    {
+      "id": "U02U7QRL4SC",
+      "displayName": "Soopeach",
+      "profileImage": "https://avatars.slack-edge.com/2023-02-25/4849463331238_6e454afca9f4822168f3_512.png",
+      "count": 3
+    },
+    {
+      "id": "U04180XL4V7",
+      "displayName": "Iden",
+      "profileImage": "https://avatars.slack-edge.com/2023-04-04/5052516997189_6da93e855eaaf6c5d94d_512.png",
+      "count": 5
+    },
+    {
+      "id": "U04K6G3JDDJ",
+      "displayName": "James",
+      "profileImage": "https://avatars.slack-edge.com/2023-02-02/4724514935799_84b11f3a8439712732cb_512.png",
+      "count": 3
+    }
+  ]
+}
